@@ -1,0 +1,6 @@
+<!-- footer start -->
+<footer class="main-footer">
+	<a class="back-top" href="#"><i class="pe-7s-angle-up-circle"></i></a>
+	<p>2013 © Levo by Pixeden.</p>
+</footer>
+<!-- footer start -->
