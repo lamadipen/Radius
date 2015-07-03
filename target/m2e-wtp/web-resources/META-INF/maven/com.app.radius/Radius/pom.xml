@@ -7,6 +7,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Radius Maven Webapp</name>
   <url>http://maven.apache.org</url>
+ 
+	<properties>
+		<java-version>1.6</java-version>
+		<struts2-version>2.3.15</struts2-version>
+		<org.springframework-version>3.2.3.RELEASE</org.springframework-version>
+		<org.springsecurity-version>3.1.0.RELEASE</org.springsecurity-version>
+		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<hibernate.validator.version>4.2.0.Final</hibernate.validator.version>
+	</properties>	
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,6 +25,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <build>
     <finalName>Radius</finalName>
   </build>
