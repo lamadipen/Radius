@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+ 
+   
+<tiles-definitions>
+	<definition name="baseLayout" template="/public/base_template.jsp">
+		<put-attribute name="left_nav" value="/public/left_nav_template.jsp"></put-attribute>
+		<put-attribute name="body" value="/public/body_template.jsp"></put-attribute>
+		<put-attribute name="footer" value="/public/footer_template.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
